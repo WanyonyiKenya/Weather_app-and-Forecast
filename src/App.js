@@ -22,8 +22,8 @@ function App() {
       const weatherResponse = await response[0].json()
       const foreCastResponse = await response[1].json()
 
-      setCurrentWeather({city:searchData.label,  ...weatherResponse})
-      setForeCast({city:searchData.label,...foreCastResponse})
+      setCurrentWeather({city:searchData.label, ...weatherResponse})
+      setForeCast({city:searchData.label, ...foreCastResponse})
 
     })
     .catch((err)=>console.log(err))
