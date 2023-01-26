@@ -38,7 +38,7 @@ function App() {
      {currentWeather && <Currweather data = {currentWeather} /> }
      {foreCast && <ForeCast data = {foreCast} />}
     </div>
-  );
+  )
 }
 
 export default App;
